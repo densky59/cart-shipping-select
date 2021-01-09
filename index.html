@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            
+            <div class="cart-totals-wrap">
+                <div class="cart_totals ">
+                <h2>Podsumowanie koszyka</h2>
+        
+                <table cellspacing="0" class="shop_table shop_table_responsive">
+        
+                <tbody>
+                    <tr class="cart-subtotal">
+                        <th>Kwota</th>
+                        <td data-title="Kwota">
+                            <span class="woocommerce-Price-amount amount"><bdi>149,00&nbsp;<span class="woocommerce-Price-currencySymbol">zł</span></bdi></span>
+                        </td>
+                    </tr>
+        
+                    <tr class="woocommerce-shipping-totals shipping">
+                    <th>Wysyłka</th>
+                        <td data-title="Wysyłka">
+                            <ul id="shipping_method" class="woocommerce-shipping-methods">
+
+                                <li>
+                                    <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_table_rate15" value="table_rate:15" class="shipping_method" checked="checked">
+                                    <label for="shipping_method_0_table_rate15">Kurier DPD - przedpłata: 
+                                        <span class="woocommerce-Price-amount amount"><bdi>15,90&nbsp;<span class="woocommerce-Price-currencySymbol">zł</span></bdi></span>
+                                    </label>					
+                                </li>
+
+                                <li>
+                                    <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_table_rate16" value="table_rate:16" class="shipping_method">
+                                    <label for="shipping_method_0_table_rate16">Kurier DPD - za pobraniem: 
+                                        <span class="woocommerce-Price-amount amount"><bdi>22,00&nbsp;<span class="woocommerce-Price-currencySymbol">zł</span></bdi></span>
+                                    </label>					
+                                </li>
+
+                                <li>
+                                    <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_local_pickup18" value="local_pickup:18" class="shipping_method">
+                                    <label for="shipping_method_0_local_pickup18">
+                                        Odbiór osobisty
+                                    </label>					
+                                </li>     
+
+                            </ul>
+
+                            <p class="woocommerce-shipping-destination">
+                            Metody wysyłki zostaną zaktualizowane podczas składania zamówienia.				</p>
+                        </td>
+        </tr>
+        
+
+                <tr class="order-total">
+                    <th>Suma</th>
+                    <td data-title="Suma"><strong><span class="woocommerce-Price-amount amount"><bdi>164,90&nbsp;<span class="woocommerce-Price-currencySymbol">zł</span></bdi></span></strong> </td>
+                </tr>
+        
+                
+            </tbody></table>
+        
+            <div class="wc-proceed-to-checkout">
+                
+        <a href="https://garden-and-home.pl/podsumowanie/" class="checkout-button button alt wc-forward">
+            Przejdź do kasy</a>
+            </div>    
+        
+        </div>
+                
+    </div>
+
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
